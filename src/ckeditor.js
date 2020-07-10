@@ -86,10 +86,18 @@ ClassicEditor.defaultConfig = {
 	},
 	image: {
 		toolbar: [
+			'imageStyle:alignLeft',
+			'imageStyle:alignCenter',
+			'imageStyle:alignRight',
 			'imageStyle:full',
-			'imageStyle:side',
 			'|',
 			'imageTextAlternative'
+		],
+		styles: [
+			'full',
+			'alignLeft',
+			'alignRight',
+			'alignCenter'
 		],
 		resizeUnit: 'px'
 	},
